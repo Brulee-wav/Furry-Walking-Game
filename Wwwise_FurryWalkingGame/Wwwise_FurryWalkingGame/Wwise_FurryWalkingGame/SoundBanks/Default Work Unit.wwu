@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BC184DF6-6A6A-44E4-BAB5-1BB5FDDAA766}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{BC184DF6-6A6A-44E4-BAB5-1BB5FDDAA766}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main_Character" ID="{F16E04E8-DED8-4C4B-AE61-C78C5D404BC3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Cat_Step" ID="{C7A7CB22-E768-4146-ABD4-F7BB187C2A5E}" WorkUnitID="{C74FD77C-18C3-4897-9F13-364770A2C4BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cat_Meow" ID="{F3F598D4-6F7B-4388-A366-F33FC2675E5D}" WorkUnitID="{C74FD77C-18C3-4897-9F13-364770A2C4BD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

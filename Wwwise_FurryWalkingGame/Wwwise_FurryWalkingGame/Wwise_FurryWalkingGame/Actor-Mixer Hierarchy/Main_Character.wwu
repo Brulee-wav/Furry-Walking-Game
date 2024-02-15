@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F207147D-C08B-4A92-AF8E-42B961FC7DA2}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Main_Character" ID="{F207147D-C08B-4A92-AF8E-42B961FC7DA2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="Steps" ID="{5A41C047-EEEE-43A4-80E8-A1E81485AA1C}" ShortID="382192066">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Grass" ID="{4AC48CAB-8444-4147-8C48-AB09BF25E068}" WorkUnitID="{C5BA86C3-8BC6-434F-A190-F23F6EAE8CB7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Cat_Steps" ID="{643D547C-667F-4D1D-8E34-83E0B6606BA3}" WorkUnitID="{C5BA86C3-8BC6-434F-A190-F23F6EAE8CB7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Grass" ID="{37B80A3F-F51B-4D61-9917-9B62EE997BAE}" ShortID="862783744">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Grass_1" ID="{7FA1197F-AEC0-4A5C-8FAA-85A7D3F79D7A}" ShortID="559687644">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Animal, Foley Stage, Big Cat  Walking On Grass And Mud SND73225" ID="{DD8ADA99-7C6A-4474-B067-ACDB7B39CDC1}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Animal, Foley Stage, Big Cat  Walking On Grass And Mud SND73225.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="876561061"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Animal, Foley Stage, Big Cat  Walking On Grass And Mud SND73225" ID="{DD8ADA99-7C6A-4474-B067-ACDB7B39CDC1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Grass_2" ID="{F8B2C1F0-24E2-4BC9-809E-8CFB0C5D120A}" ShortID="955646020">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Animal, Foley Stage, Big Cat  Walking On Grass And Mud SND73225 1" ID="{CD92650E-3ACE-4139-B3CB-B67281DD44CE}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Animal, Foley Stage, Big Cat  Walking On Grass And Mud SND73225 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="652485973"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Animal, Foley Stage, Big Cat  Walking On Grass And Mud SND73225 1" ID="{CD92650E-3ACE-4139-B3CB-B67281DD44CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Grass_3" ID="{C5F55B72-0471-4C90-999B-D5A313EA3A45}" ShortID="265442982">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Animal, Foley Stage, Big Cat  Walking On Grass And Mud SND73225 3" ID="{E4FB6058-BDE7-4BE6-B327-933420B85743}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Animal, Foley Stage, Big Cat  Walking On Grass And Mud SND73225 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="418890094"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Animal, Foley Stage, Big Cat  Walking On Grass And Mud SND73225 3" ID="{E4FB6058-BDE7-4BE6-B327-933420B85743}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Stone" ID="{C833914B-3DBE-4752-B67D-0C6F2FF1B01B}" ShortID="79162075">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Stone_1" ID="{BD48C883-10D8-4A71-BB09-BE28830D2FE7}" ShortID="361560536">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Animal, Foley, Dog, Cat, Paws Without Claws, Asphalt, Run SND93836" ID="{AA6D03FC-D231-464A-BDA6-0F027ACD6473}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Animal, Foley, Dog, Cat, Paws Without Claws, Asphalt, Run SND93836.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="745349259"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Animal, Foley, Dog, Cat, Paws Without Claws, Asphalt, Run SND93836" ID="{AA6D03FC-D231-464A-BDA6-0F027ACD6473}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Stone_2" ID="{15BB47CB-24CE-4628-8C6E-CFDD2709A97C}" ShortID="763138242">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Animal, Foley, Dog, Cat, Paws Without Claws, Asphalt, Run SND93836 1" ID="{1296A8F8-45C7-42A1-88CA-39E375DB5AFD}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Animal, Foley, Dog, Cat, Paws Without Claws, Asphalt, Run SND93836 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="736365939"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Animal, Foley, Dog, Cat, Paws Without Claws, Asphalt, Run SND93836 1" ID="{1296A8F8-45C7-42A1-88CA-39E375DB5AFD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Stone_3" ID="{AC415A48-80E6-47EC-A451-EFAAB20CFAB9}" ShortID="834003230">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Animal, Foley, Dog, Cat, Paws Without Claws, Asphalt, Run SND93836 2" ID="{E79EA9C7-B2DB-4478-8B5E-E8FFC158464D}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Animal, Foley, Dog, Cat, Paws Without Claws, Asphalt, Run SND93836 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="683605823"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Animal, Foley, Dog, Cat, Paws Without Claws, Asphalt, Run SND93836 2" ID="{E79EA9C7-B2DB-4478-8B5E-E8FFC158464D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Hay" ID="{35F67225-92F1-45C4-969D-43D078FEA4A3}" ShortID="186187658">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Hay_1" ID="{4F520FB7-352D-4581-A65F-A9C7BF2312E7}" ShortID="767872951">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="Hay_2" ID="{0D6C74C9-AE41-476B-94FF-E1B64C6EB1E4}" ShortID="55557177">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="Hay_3" ID="{185C0767-A39F-4F35-8071-5D83F589737F}" ShortID="676111141">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Dirt" ID="{0D23FBB5-B066-4FE6-B8B0-F459C0342B03}" ShortID="780003968">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Dirt_1" ID="{791BECFD-425B-4A57-81CE-7546B90FE501}" ShortID="667786532">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 01 SND73202" ID="{1ABEBF63-D60B-4BBE-B103-55E91849BB51}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00218995691976306"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0244438622126838"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.208677885915112"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 01 SND73202.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="477129406"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 01 SND73202" ID="{1ABEBF63-D60B-4BBE-B103-55E91849BB51}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dirt_2" ID="{AB8533D8-480B-4D18-9D33-DAFD123934F4}" ShortID="750834102">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 01 SND73202 1" ID="{D17BD5C9-14C5-400C-8A7B-EA65DA166CAC}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00367919527463651"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0127042808446897"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.129669353203568"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-4.4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 01 SND73202 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="331986933"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 01 SND73202 1" ID="{D17BD5C9-14C5-400C-8A7B-EA65DA166CAC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dirt_3" ID="{1AB455A1-F4B6-46EA-9123-1D25B6ADB585}" ShortID="308878370">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 01 SND73202 2" ID="{82680D5D-E2D6-4C2E-B55E-69979B51A20D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00658456179321486"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.00538736873990309"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.185115369018654"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-1.9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 01 SND73202 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="695752424"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 01 SND73202 2" ID="{82680D5D-E2D6-4C2E-B55E-69979B51A20D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Dirt_1" ID="{791BECFD-425B-4A57-81CE-7546B90FE501}"/>
+								<ItemRef Name="Dirt_2" ID="{AB8533D8-480B-4D18-9D33-DAFD123934F4}"/>
+								<ItemRef Name="Dirt_3" ID="{1AB455A1-F4B6-46EA-9123-1D25B6ADB585}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Sand" ID="{C03387A7-FE20-475A-9654-14D5824B6494}" ShortID="121933984">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Sand_1" ID="{3504F242-C453-4CCC-9D02-911424255525}" ShortID="177049697">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Animal, Foley, Dog, Cat, Paws With Claws, Sand, Singular Footsteps SND93838" ID="{206F9C09-03D6-4A26-BE76-21DE26192C91}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Animal, Foley, Dog, Cat, Paws With Claws, Sand, Singular Footsteps SND93838.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="847687302"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Animal, Foley, Dog, Cat, Paws With Claws, Sand, Singular Footsteps SND93838" ID="{206F9C09-03D6-4A26-BE76-21DE26192C91}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sand_2" ID="{B87DBDE2-EE60-4C8F-96D4-6339FF89EED7}" ShortID="556188094">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Animal, Foley, Dog, Cat, Paws With Claws, Sand, Singular Footsteps SND93838 1" ID="{0A2935EC-688F-4103-ABF2-7330BD1B2F4D}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Animal, Foley, Dog, Cat, Paws With Claws, Sand, Singular Footsteps SND93838 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="530780472"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Animal, Foley, Dog, Cat, Paws With Claws, Sand, Singular Footsteps SND93838 1" ID="{0A2935EC-688F-4103-ABF2-7330BD1B2F4D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sand_3" ID="{5A29AE26-6F9A-4D40-81FF-73C5E0650503}" ShortID="458725753">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Animal, Foley, Dog, Cat, Paws With Claws, Sand, Singular Footsteps SND93838 2" ID="{8CDFADF0-1C98-42E7-8CA9-1AF9C6E5F333}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Animal, Foley, Dog, Cat, Paws With Claws, Sand, Singular Footsteps SND93838 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="22063749"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Animal, Foley, Dog, Cat, Paws With Claws, Sand, Singular Footsteps SND93838 2" ID="{8CDFADF0-1C98-42E7-8CA9-1AF9C6E5F333}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Plank" ID="{CDBEAA6B-E37E-4A3C-8DCD-863CB23DBC0D}" ShortID="753052987">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Plank_1" ID="{8AE842E1-A120-4365-B284-8B3F73DC1C8D}" ShortID="327798612">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 02 SND73201" ID="{FA9F13C3-FF14-465F-8838-53C943E99EAA}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 02 SND73201.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="746421003"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 02 SND73201" ID="{FA9F13C3-FF14-465F-8838-53C943E99EAA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Plank_2" ID="{7F35C6EF-1C31-4938-BFA8-4C13356E9CFC}" ShortID="724692423">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 02 SND73201 1" ID="{61E64CCF-79ED-4426-8956-1B448867BBEA}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 02 SND73201 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="238099416"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 02 SND73201 1" ID="{61E64CCF-79ED-4426-8956-1B448867BBEA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Plank_3" ID="{A3BC3E4E-401F-4195-A854-5DCD54E2FAD9}" ShortID="500696792">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 02 SND73201 2" ID="{6A9AFB8B-7066-4135-B79C-434C398CAED2}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 02 SND73201 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="545456242"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Animal, Foley Stage, Small Cat Paws Softly Walking Indoors 02 SND73201 2" ID="{6A9AFB8B-7066-4135-B79C-434C398CAED2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Water" ID="{07A81293-CD85-41FD-AEEA-5BD759DF6F62}" ShortID="607321069">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Water_1" ID="{4E35D1D1-D257-4071-8499-24D30AB91934}" ShortID="889541959">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="Water_2" ID="{6C182161-F4CE-4398-93BF-229FB7724B08}" ShortID="1013855167">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+								<Sound Name="Water_3" ID="{13C8113E-179B-4B2A-A709-731080BCD450}" ShortID="907999059">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+										</Reference>
+									</ReferenceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Hay" ID="{35F67225-92F1-45C4-969D-43D078FEA4A3}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Grass" ID="{37B80A3F-F51B-4D61-9917-9B62EE997BAE}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Stone" ID="{C833914B-3DBE-4752-B67D-0C6F2FF1B01B}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Plank" ID="{CDBEAA6B-E37E-4A3C-8DCD-863CB23DBC0D}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Water" ID="{07A81293-CD85-41FD-AEEA-5BD759DF6F62}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Sand" ID="{C03387A7-FE20-475A-9654-14D5824B6494}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Dirt" ID="{0D23FBB5-B066-4FE6-B8B0-F459C0342B03}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Stone" ID="{4C51430E-DFE4-4842-B83B-4AF7A97289E5}"/>
+								<ItemList>
+									<ItemRef Name="Stone" ID="{C833914B-3DBE-4752-B67D-0C6F2FF1B01B}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Sand" ID="{817D5C1F-CBD1-41A9-851C-A8807C28D432}"/>
+								<ItemList>
+									<ItemRef Name="Sand" ID="{C03387A7-FE20-475A-9654-14D5824B6494}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Plank" ID="{C8D3B95F-85A6-4AD1-B129-AE4B101ABEE8}"/>
+								<ItemList>
+									<ItemRef Name="Plank" ID="{CDBEAA6B-E37E-4A3C-8DCD-863CB23DBC0D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Grass" ID="{4AC48CAB-8444-4147-8C48-AB09BF25E068}"/>
+								<ItemList>
+									<ItemRef Name="Grass" ID="{37B80A3F-F51B-4D61-9917-9B62EE997BAE}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dirt" ID="{24B1CBCB-6C33-413E-8402-86DE5A215A57}"/>
+								<ItemList>
+									<ItemRef Name="Dirt" ID="{0D23FBB5-B066-4FE6-B8B0-F459C0342B03}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Water" ID="{9913DDD1-96AC-4583-9741-B646930AFE32}"/>
+								<ItemList>
+									<ItemRef Name="Water" ID="{07A81293-CD85-41FD-AEEA-5BD759DF6F62}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Hay" ID="{EAE793E4-A4D1-4207-A073-E57570D2D297}"/>
+								<ItemList>
+									<ItemRef Name="Hay" ID="{35F67225-92F1-45C4-969D-43D078FEA4A3}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<RandomSequenceContainer Name="Meow" ID="{EDB4E3A3-C810-4F74-AA2D-EEE25430955A}" ShortID="500570894">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Meow_1" ID="{BC497BCE-9261-454E-B22C-36A3E2A42CC2}" ShortID="247694605">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="Meow_2" ID="{3049D8CE-F119-414A-8543-8C883BC48411}" ShortID="223616472">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="Meow_3" ID="{DD188013-C358-4203-9B59-C3EB4189CBB5}" ShortID="255679369">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="Meow_4" ID="{AE50671F-D4D5-4D20-A5B0-948E59146A2A}" ShortID="646840862">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="Meow_5" ID="{27310ECD-7A1A-4C80-91E5-E268A64EC8BC}" ShortID="699761517">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="Meow_6" ID="{B9FF8F5D-FEFA-4D1B-A8B4-EB40CAB9EBA8}" ShortID="509176312">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FAFB7C1-BB6D-4C67-871D-B3A9A30EC95B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A67544-3C89-4CF4-B310-8DA25303F379}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

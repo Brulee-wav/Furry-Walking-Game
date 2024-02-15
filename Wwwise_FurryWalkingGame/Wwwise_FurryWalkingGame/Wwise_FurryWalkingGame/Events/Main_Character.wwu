@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C74FD77C-18C3-4897-9F13-364770A2C4BD}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Main_Character" ID="{C74FD77C-18C3-4897-9F13-364770A2C4BD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Cat_Meow" ID="{F3F598D4-6F7B-4388-A366-F33FC2675E5D}">
+					<ChildrenList>
+						<Action Name="" ID="{68BAC357-6F46-4BC0-8628-D86B24D6629B}" ShortID="869194667">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Meow" ID="{EDB4E3A3-C810-4F74-AA2D-EEE25430955A}" WorkUnitID="{F207147D-C08B-4A92-AF8E-42B961FC7DA2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Cat_Step" ID="{C7A7CB22-E768-4146-ABD4-F7BB187C2A5E}">
+					<ChildrenList>
+						<Action Name="" ID="{23F30918-9496-47C4-87C2-D32EF8B51CFD}" ShortID="847505099">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Steps" ID="{5A41C047-EEEE-43A4-80E8-A1E81485AA1C}" WorkUnitID="{F207147D-C08B-4A92-AF8E-42B961FC7DA2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

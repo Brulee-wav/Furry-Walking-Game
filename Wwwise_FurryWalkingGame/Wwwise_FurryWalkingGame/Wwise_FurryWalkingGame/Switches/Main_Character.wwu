@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C5BA86C3-8BC6-434F-A190-F23F6EAE8CB7}" SchemaVersion="110" RootDocumentID="{232ACB93-6785-4FCA-947F-461BD7F87AEE}" ParentDocumentID="{232ACB93-6785-4FCA-947F-461BD7F87AEE}">
+	<Switches>
+		<WorkUnit Name="Main_Character" ID="{C5BA86C3-8BC6-434F-A190-F23F6EAE8CB7}" OwnerID="{232ACB93-6785-4FCA-947F-461BD7F87AEE}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="Cat_Steps" ID="{643D547C-667F-4D1D-8E34-83E0B6606BA3}">
+					<ChildrenList>
+						<Switch Name="Grass" ID="{4AC48CAB-8444-4147-8C48-AB09BF25E068}"/>
+						<Switch Name="Dirt" ID="{24B1CBCB-6C33-413E-8402-86DE5A215A57}"/>
+						<Switch Name="Sand" ID="{817D5C1F-CBD1-41A9-851C-A8807C28D432}"/>
+						<Switch Name="Stone" ID="{4C51430E-DFE4-4842-B83B-4AF7A97289E5}"/>
+						<Switch Name="Plank" ID="{C8D3B95F-85A6-4AD1-B129-AE4B101ABEE8}"/>
+						<Switch Name="Hay" ID="{EAE793E4-A4D1-4207-A073-E57570D2D297}"/>
+						<Switch Name="Water" ID="{9913DDD1-96AC-4583-9741-B646930AFE32}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
